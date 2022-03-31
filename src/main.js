@@ -1,7 +1,8 @@
 document.addEventListener('keydown', getUsername)
 
 function getUsername(e) {
-    if (e.code == "Enter"){
+    while(e.value !== "Enter"){
         const username = Username.value
+        console.log(username)
     }
 }
