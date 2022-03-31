@@ -1,6 +1,6 @@
-document.addEventListener('input', validate)
+document.addEventListener('keydown', validate)
 
 function validate(e) {
     if (e.code == "Enter")
-    console.log("got it")
+    console.log(document.getElementById(Username))
 }
