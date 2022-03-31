@@ -1,6 +1,7 @@
-document.addEventListener('keydown', validate)
+document.addEventListener('keydown', getUsername)
 
-function validate(e) {
-    if (e.code == "Enter")
-    console.log(document.getElementById(Username))
+function getUsername(e) {
+    if (e.code == "Enter"){
+        const username = Username.value
+    }
 }
