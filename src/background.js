@@ -1,2 +1,3 @@
-import {getUsername} from "main.js"
+import {username} from "main.js"
+
 
