@@ -1,8 +1,6 @@
-document.addEventListener('keyup', getUsername)
+document.addEventListener('click', getUsername)
 
 function getUsername(e) {
-    if(e.keycode == 13){
     const username = Username.value
-    console.log(username)
-    }
+    return username
 }
