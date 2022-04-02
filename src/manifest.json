@@ -4,7 +4,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "background": {
-        "service_worker": "backround.js"
+        "service_worker": "background.js"
     },
     "host_permissions": ["http://*.twitter.com/"],
     "action":{"default_popup":"popup.html"}
