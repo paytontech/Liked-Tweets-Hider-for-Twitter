@@ -1,5 +1,3 @@
-import {username} from "main.js"
-
 //validate username 
 
 // if valid get ID from username | if not valid then let user know
