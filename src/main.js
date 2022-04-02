@@ -5,4 +5,3 @@ function getUsername(e) {
     return username
 }
 
-export{username};
