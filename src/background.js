@@ -1,3 +1,10 @@
+document.addEventListener('click', getUsername);
+
+function getUsername(e) {
+    const username = Username.value
+    return username
+}
+
 //validate username 
 
 // if valid get ID from username | if not valid then let user know
