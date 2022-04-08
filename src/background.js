@@ -1,10 +1,3 @@
-document.addEventListener('click', getUsername);
-
-function getUsername(e) {
-    const username = Username.value
-    return username
-}
-
 //validate username 
 
 // if valid get ID from username | if not valid then let user know
@@ -12,4 +5,3 @@ function getUsername(e) {
 // use ID to get 100 most recent liked tweets
 
 // match them against the feed and remove them via DOM
-
