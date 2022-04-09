@@ -1,3 +1,3 @@
-import username from main.js
+import {username} from './main.js'
 
 console.log(username)
