@@ -1,6 +1,6 @@
 document.addEventListener('click', getUsername);
 
-export function getUsername(e) {
+function getUsername(e) {
     const username = Username.value
     return username
 }

@@ -3,9 +3,6 @@
     "description": "Hide Tweets you have already liked from your Twitter feed",
     "version": "1.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.html"
-    },
     "host_permissions": ["http://*.twitter.com/"],
     "action":{"default_popup":"popup.html"}
   }
