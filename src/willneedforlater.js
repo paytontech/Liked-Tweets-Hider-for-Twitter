@@ -17,4 +17,6 @@ x.data.forEach(x => {
     console.log(x.id)
 });
 
+https://developer.chrome.com/docs/extensions/mv3/messaging/#:~:text=If%20you%20only%20need%20to,%2C%20or%20vice%20versa%2C%20respectively.
+
 */
