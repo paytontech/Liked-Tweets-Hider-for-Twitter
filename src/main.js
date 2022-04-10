@@ -3,4 +3,4 @@ document.addEventListener("keydown", function(event) {
         let username = document.getElementById("Username").value 
         chrome.runtime.sendMessage({greeting: username})
     }
-});
+})

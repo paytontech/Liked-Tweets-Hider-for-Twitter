@@ -1,6 +1,5 @@
-chrome.runtime.onMessage.addListener(
-    function(request) {
-      let username = request.greeting
-      return username
-    }
-)
+chrome.runtime.onMessage.addListener(getUsername)
+
+function getUsername (request) {
+  let username = request.greeting
+}
